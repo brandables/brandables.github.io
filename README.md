@@ -1,2 +1,2 @@
-# brandables.github.io
-Official website of brandables
+# brandables
+Brandables official website
