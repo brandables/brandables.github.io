@@ -346,6 +346,34 @@ emailjs.init("TBnRzpeEqL3uwrYut");
       disable: "mobile",
     });
   };
+  document.addEventListener("DOMContentLoaded", function () {
+    // Get the download link element
+    var downloadLink = document.getElementById("downloadLink");
+
+    // Add a click event listener
+    downloadLink.addEventListener("click", function (event) {
+      // Prevent the default action of the link
+      event.preventDefault();
+
+      // Create an anchor element
+      var a = document.createElement("a");
+
+      // Set the href attribute to the path of the image file you want to download
+      a.href = "./Brandables-card.png";
+
+      // Set the download attribute to specify the filename to be used when saving the file
+      a.download = "brandables-card.png";
+
+      // Append the anchor element to the document body
+      document.body.appendChild(a);
+
+      // Programmatically click the anchor element to trigger the download
+      a.click();
+
+      // Remove the anchor element from the document body
+      document.body.removeChild(a);
+    });
+  });
 
   /* AjaxChimp
    * ------------------------------------------------------ */

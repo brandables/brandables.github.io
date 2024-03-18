@@ -96,7 +96,7 @@ a {
 }
 
 a:hover, a:focus, a:active {
-    color: #cb2222ff;
+    color: goldenrod;
 }
 
 a:hover, a:active {
@@ -367,7 +367,7 @@ ul.disc li::before {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: #cb2222ff;
+    background: rgba(203, 34, 34, 0.447);
     position: absolute;
     left: -17px;
     top: 11px;
@@ -376,7 +376,7 @@ ul.disc li::before {
 
 dt {
     margin: 0;
-    color: #cb2222ff;
+    color: goldenrod;
 }
 
 dd {
@@ -502,7 +502,7 @@ form,
 }
 
 .pace .pace-progress {
-    background: #cb2222ff;
+    background: goldenrod;
     position: fixed;
     z-index: 900;
     top: 0;
@@ -545,7 +545,7 @@ form,
 }
 
 .line-scale-pulse-out > div {
-    background-color: #cb2222ff;
+    background-color: goldenrod;
     width: 4px;
     height: 35px;
     border-radius: 2px;
@@ -772,7 +772,7 @@ textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-    -webkit-text-fill-color: #cb2222ff;
+    -webkit-text-fill-color: goldenrod;
     transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -832,8 +832,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background: #cb2222ff;
-    border-color: #cb2222ff;
+    background: goldenrod;
+    border-color: goldenrod;
     color: #FFFFFF;
 }
 
@@ -872,8 +872,8 @@ input[type="button"].btn--primary:focus {
 
 .btn--stroke, button.btn--stroke {
     background: transparent !important;
-    border: 0.2rem solid #cb2222ff;
-    color: #cb2222ff;
+    border: 0.2rem solid goldenrod;
+    color: goldenrod;
 }
 
 .btn--stroke:hover, button.btn--stroke:hover {
@@ -1101,7 +1101,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-    color: #cb2222ff;
+    color: goldenrod;
 }
 
 .stats-tabs li a em {
@@ -1246,7 +1246,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color: #cb2222ff;
+    color: goldenrod;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -1420,7 +1420,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .slick-slider .slick-dots li.slick-active button,
 .slick-slider .slick-dots li:hover button {
-    background: #cb2222ff;
+    background: goldenrod;
 }
 
 
@@ -1534,7 +1534,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     letter-spacing: .25rem;
     margin-bottom: 4.8rem;
     margin-top: .9rem;
-    color: #cb2222ff;
+    color: goldenrod;
 }
 
 .header-nav p {
@@ -1672,7 +1672,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-size: 1.3rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
-    color: #cb2222ff;
+    color: goldenrod;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
@@ -1880,8 +1880,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll a::before {
-    border-bottom: 2px solid #cb2222ff;
-    border-right: 2px solid #cb2222ff;
+    border-bottom: 2px solid goldenrod;
+    border-right: 2px solid goldenrod;
     content: '';
     display: block;
     height: 8px;
@@ -1905,7 +1905,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: block;
     width: 2px;
     height: 10.2rem;
-    background-color: #cb2222ff;
+    background-color: goldenrod;
     position: absolute;
     right: 7.2rem;
     bottom: 0;
@@ -1965,7 +1965,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-social span {
-    color: #cb2222ff;
+    color: goldenrod;
     right: 4.5rem;
     font-size: 1.3rem;
     opacity: 0;
@@ -2221,7 +2221,7 @@ html.no-csstransitions .home-content__main {
 .s-about {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
-    background-color: #cb2222ff;
+    background-color: rgba(218, 165, 32, 0.6);
     color: #010507;
     position: relative;
 }
@@ -2426,7 +2426,7 @@ html.no-csstransitions .home-content__main {
 
 .services-list .service-icon {
     float: left;
-    color: #cb2222ff;
+    color: goldenrod;
     font-size: 4.8rem;
     margin-top: -.6rem;
 }
@@ -2514,13 +2514,13 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-works {
     background: #FFFFFF;
-    padding: 0 0 15rem 0;
-    min-height: 800px;
+    padding: 0 0 5rem 0;
+    /* min-height: 800px; */
     position: relative;
 }
 
 .s-works .intro-wrap {
-    padding: 15rem 0 25.2rem;
+    padding: 15rem 0 45.2rem;
     background: #111111;
 }
 
@@ -2533,7 +2533,10 @@ html.no-csstransitions .home-content__main {
 /* ------------------------------------------------------------------- 
  * ## bricks/masonry
  * ------------------------------------------------------------------- */
-.masonry:after {
+ .masonry{
+    margin-top: -13.4rem;
+ }
+ .masonry:after {
     content: "";
     display: table;
     clear: both;
@@ -2551,12 +2554,15 @@ html.no-csstransitions .home-content__main {
 .item-folio {
     position: relative;
     overflow: hidden;
+    
+
 }
 
 .item-folio__thumb img {
-    vertical-align: bottom;
+    /* vertical-align: bottom; */
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+    
 }
 
 .item-folio__thumb a {
@@ -2727,13 +2733,16 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 600px) {
     .s-works {
-        padding-bottom: 12rem;
+        /* padding-bottom: 12rem; */
     }
     .s-works .intro-wrap {
-        padding: 12rem 0 25.2rem;
+        /* padding: 12rem 0 25.2rem; */
     }
     .works-content {
-        margin-top: -25.2rem;
+        margin-top: -15.2rem;
+    }
+    .masonry{
+        margin-top: -26rem;
     }
     .masonry__brick {
         float: none;
@@ -2959,18 +2968,18 @@ html.no-csstransitions .home-content__main {
     background-position: center, center;
     padding-top: 15rem;
     padding-bottom: 12rem;
-    color: rgba(255, 255, 255, 0.5);
-    position: relative;
+    /* color: rgb(0, 0, 0); */
+    /* position: relative; */
 }
 
 .s-contact .overlay {
-    position: absolute;
+    /* position: ; */
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: .8;
-    background-color: #151515;
+    opacity: 10.0;
+    /* background-color: #151515; */
 }
 
 .s-contact .form-field {
@@ -2995,7 +3004,7 @@ html.no-csstransitions .home-content__main {
     padding: 0 2rem;
     margin: 0;
     color: #FFFFFF;
-    background: #cb2222ff;
+    background: goldenrod;
 }
 
 .s-contact .form-field label::after {
@@ -3006,14 +3015,14 @@ html.no-csstransitions .home-content__main {
     margin-top: -6px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-right: 5px solid #cb2222ff;
+    border-right: 5px solid goldenrod;
 }
 
 .contact__line {
     display: block;
     width: 2px;
     height: 20.4rem;
-    background-color: #cb2222ff;
+    background-color: goldenrod;
     position: absolute;
     left: 50%;
     top: -10.2rem;
@@ -3022,8 +3031,8 @@ html.no-csstransitions .home-content__main {
 
 .contact-content {
     max-width: 1000px;
-    background-color: rgba(0, 0, 0, 0.2);
-    color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(0, 0, 0, 0.616);
+    color: rgba(255, 255, 255, 0.87);
     padding-top: 6rem;
     padding-bottom: 6rem;
     font-family: "montserrat-light", sans-serif;
@@ -3040,7 +3049,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-content h5 {
     margin-top: 0;
-    color: #cb2222ff;
+    color: goldenrod;
 }
 
 .contact-content input[type="email"],
@@ -3052,7 +3061,7 @@ html.no-csstransitions .home-content__main {
 .contact-content input[type="password"],
 .contact-content textarea,
 .contact-content select {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.833);
     border-bottom: 1px solid rgba(255, 255, 255, 0.07);
     margin-bottom: .9rem;
 }
@@ -3067,7 +3076,7 @@ html.no-csstransitions .home-content__main {
 .contact-content textarea:focus,
 .contact-content select:focus {
     color: #FFFFFF;
-    border-bottom: 1px solid #cb2222ff;
+    border-bottom: 1px solid goldenrod;
 }
 
 .contact-content button,
@@ -3077,31 +3086,31 @@ html.no-csstransitions .home-content__main {
 .contact-content input::-webkit-input-placeholder,
 .contact-content select::-webkit-input-placeholder,
 .contact-content textarea::-webkit-input-placeholder {
-    color: #4f4f4f;
+    color: #cfcdcd;
 }
 
 .contact-content input:-moz-placeholder,
 .contact-content select:-moz-placeholder,
 .contact-content textarea:-moz-placeholder {
-    color: #4f4f4f;    /* Firefox 18- */
+    color: #cfcdcd;    /* Firefox 18- */
 }
 
 .contact-content input::-moz-placeholder,
 .contact-content select::-moz-placeholder,
 .contact-content textarea::-moz-placeholder {
-    color: #4f4f4f;    /* Firefox 19+ */
+    color: #cfcdcd;    /* Firefox 19+ */
 }
 
 .contact-content input:-ms-input-placeholder,
 .contact-content select:-ms-input-placeholder,
 .contact-content textarea:-ms-input-placeholder {
-    color: #4f4f4f;
+    color: #cfcdcd;
 }
 
 .contact-content input.placeholder,
 .contact-content select.placeholder,
 .contact-content textarea.placeholder {
-    color: #4f4f4f !important;
+    color: #cfcdcd !important;
 }
 .contact-primary, .contact-secondary {
     float: left;
@@ -3123,7 +3132,7 @@ html.no-csstransitions .home-content__main {
 .contact-secondary::before {
     content: "";
     display: block;
-    width: 35%;
+ 
     position: absolute;
     top: 0;
     bottom: 0;
@@ -3134,9 +3143,17 @@ html.no-csstransitions .home-content__main {
 .contact-secondary .contact-info {
     position: relative;
 }
-
+.contact-secondary .contact-info h2 {
+    position: relative;
+    margin-top: 15rem;
+    color: white;
+}
 .contact-secondary .cinfo {
     margin-bottom: 4.8rem;
+    /* margin-top: 4.8rem; */
+}
+.contact-secondary .cinfo h5 {
+    color:goldenrod;
 }
 
 .contact-social {
@@ -3158,7 +3175,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-social li a:hover, 
 .contact-social li a:focus {
-    color: #cb2222ff;
+    color: goldenrod;
 }
 
 .contact-social li:last-child {
@@ -3181,7 +3198,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .message-success {
-    color: #cb2222ff;
+    color: goldenrod;
 }
 
 .message-warning i, .message-success i {
@@ -3294,11 +3311,13 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 1000px) {
     .contact-content {
-        max-width: 700px;
+        max-width: 800px;
     }
-    .contact-primary, .contact-secondary {
+    .contact-primary,
+    .contact-secondary {
         float: none;
         width: 100%;
+        padding: 0 20px; /* Adjust padding for both sections */
     }
     .contact-primary #contactForm {
         margin-top: -1.5rem;
@@ -3310,10 +3329,12 @@ html.no-csstransitions .home-content__main {
     .contact-secondary::before {
         display: none;
     }
-    .message-warning, .message-success {
+    .message-warning,
+    .message-success {
         margin-bottom: 6rem;
     }
 }
+
 
 @media only screen and (max-width: 800px) {
     .contact-content h3 {
@@ -3364,8 +3385,8 @@ footer h4 {
     color: #FFFFFF;
     font-size: 1.6rem;
     line-height: 1.313;
-    margin-top: 0;
-    margin-bottom: 3.6rem;
+    margin-top: 3rem;
+    /* margin-bottom: 3.6rem; */
 }
 
 footer a {
@@ -3373,7 +3394,7 @@ footer a {
 }
 
 footer a:hover, footer a:focus, footer a:active {
-    color: #cb2222ff;
+    color: goldenrod;
 }
 
 footer .row {
@@ -3402,7 +3423,7 @@ footer .row {
     padding: 0;
     outline: 0;
     border: none;
-    width: 85px;
+    width: 160px;
     height: 28px;
     background: url("../images/logo-footer.png") no-repeat center;
     background-size: 85px 28px;
@@ -3411,7 +3432,11 @@ footer .row {
     color: transparent;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+    transform: scalex(2) scaley(2);
+    
 }
+
+
 
 .footer-subscribe .subscribe-form {
     margin: 0;
@@ -3465,8 +3490,8 @@ footer .row {
     top: 0;
     right: 0;
     color: #FFFFFF;
-    background: #cb2222ff;
-    border-color: #cb2222ff;
+    background: goldenrod;
+    border-color: goldenrod;
     padding: 0 20px;
 }
 
